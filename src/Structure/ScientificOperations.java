@@ -15,9 +15,9 @@ public interface ScientificOperations {
 	 * | @param isInverse | Show if function is inverse               |
 	 * ---------------------------------------------------------------|
 	 * | @param mode      | A possible values of this parameter       |
-	 * |				  | are 'D'/'R'/'G' as Degrees, Radians, Grads|
+	 * |                  | are 'D'/'R'/'G' as Degrees, Radians, Grads|
 	 * ---------------------------------------------------------------|
-	 * | @return 		  | Result of function                        |
+	 * | @return          | Result of function                        |
 	 * ================================================================
 	 */
 	
