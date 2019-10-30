@@ -1,15 +1,14 @@
 package PckgForTests;
 
-import Structure.StandardOperations;
+//import Structure.ScientificOperations;
+//import Structure.StandardOperations;
 
-public class Tests implements StandardOperations {
+public class Tests /*implements StandardOperations, ScientificOperations*/ {
 	
-	int a;
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	}
-
+/*
 	@Override
 	public Number add(Number a, Number b) {
 		// TODO Auto-generated method stub
@@ -81,4 +80,16 @@ public class Tests implements StandardOperations {
 		
 	}
 
+	@Override
+	public void clear() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void clearEntry() {
+		// TODO Auto-generated method stub
+		
+	}
+*/
 }
