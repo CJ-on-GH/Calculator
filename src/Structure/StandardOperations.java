@@ -6,7 +6,6 @@ package Structure;
  *
  */
 public interface StandardOperations {
-	Number memory = 0;
 	public Number add(Number a, Number b);
 	public Number substract(Number a, Number b);
 	public Number multiply(Number a, Number b);

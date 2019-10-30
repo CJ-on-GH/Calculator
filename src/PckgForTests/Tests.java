@@ -3,6 +3,8 @@ package PckgForTests;
 import Structure.StandardOperations;
 
 public class Tests implements StandardOperations {
+	
+	int a;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
