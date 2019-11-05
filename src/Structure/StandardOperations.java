@@ -4,15 +4,15 @@ package Structure;
  * @author Oleksii Baienko
  */
 public interface StandardOperations {
-	Number add(Number a, Number b); // +
-	Number substract(Number a, Number b); // -
-	Number multiply(Number a, Number b); // *
-	Number devide(Number a, Number b); // /
-	Number invert(Number a); // ±
-	Number root(Number a, Number base); // √
-	Number percent(Number a, Number percent); // %
+	Double add(Double a, Double b); // +
+	Double substract(Double a, Double b); // -
+	Double multiply(Double a, Double b); // *
+	Double devide(Double a, Double b); // /
+	Double invert(Double a); // ±
+	Double root(Double a, Double base); // √
+	Double percent(Double a, Double percent); // %
 	void memoryClear(); // MC
-	Number memoryReturn(); // MR
+	Double memoryReturn(); // MR
 	void memorySave(); // MS
 	void memoryAdd(); // M+
 	void memorySubstract(); // M-

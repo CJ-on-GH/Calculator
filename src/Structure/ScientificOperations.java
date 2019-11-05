@@ -12,7 +12,7 @@ public interface ScientificOperations {
 	 * ================================================================
 	 * | @param a         | A parameter of this function              |
 	 * ---------------------------------------------------------------|
-	 * | @param isInverse | Show if function is inverse               |
+	 * | @param isInverse | True if this function is inverse          |
 	 * ---------------------------------------------------------------|
 	 * | @param mode      | A possible values of this parameter       |
 	 * |                  | are 'D'/'R'/'G' as Degrees, Radians, Grads|
@@ -21,6 +21,10 @@ public interface ScientificOperations {
 	 * ================================================================
 	 */
 	
-	Number sin(Number a, boolean isInverse, char mode);
-	
+	Double sin(Double a, boolean isInverse, char mode);
+	Double cos(Double a, boolean isInverse, char mode);
+	Double tan(Double a, boolean isInverse, char mode);
+	Double sinh(Double a, boolean isInverse, char mode);
+	Double cosh(Double a, boolean isInverse, char mode);
+	Double tanh(Double a, boolean isInverse, char mode);
 }
