@@ -13,9 +13,9 @@ public interface StandardOperations {
 	double percent(double a, double percent); // %
 	void memoryClear(); // MC
 	double memoryReturn(); // MR
-	void memorySave(); // MS
-	void memoryAdd(); // M+
-	void memorySubstract(); // M-
+	void memorySave(double a); // MS
+	void memoryAdd(double a); // M+
+	void memorySubstract(double a); // M-
 	void clear(); // C
 	void clearEntry(); // CE
 	void clearAll(); // CA

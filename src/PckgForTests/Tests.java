@@ -2,11 +2,13 @@ package PckgForTests;
 
 //import Structure.ScientificOperations;
 //import Structure.StandardOperations;
-
+import Implementation.Implementation;
 public class Tests /*implements StandardOperations, ScientificOperations*/ {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Implementation imp = new Implementation();
+		System.out.println(imp.add(1, 2));
 	}
 /*
 	@Override
