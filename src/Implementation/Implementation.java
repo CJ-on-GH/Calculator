@@ -5,7 +5,6 @@ public class Implementation implements ScientificOperations, StandardOperations
 {
 	private double memory=0;
 	
-	
 	@Override
 	public double add(double a, double b) 
 	{
@@ -49,19 +48,16 @@ public class Implementation implements ScientificOperations, StandardOperations
 
 	@Override
 	public double percent(double a, double percent) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
 	public void memorySave(double a) {
-		// TODO Auto-generated method stub
 		this.memory=a;
 	}
 
 	@Override
 	public void memoryAdd(double a) {
-		// TODO Auto-generated method stub
 		this.memory=this.memory+a;
 	}
 
